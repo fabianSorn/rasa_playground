@@ -1,15 +1,16 @@
 intents:
   - greet
-  - test
   - learn
+  - test
 
 responses:
   utter_greet:
-  - text: "Hey! How can I help you?"
+    - text: "Hey! How can I help you?"
+  utter_mock_definition:
+    - text: "Some mocked definition"
 
 actions:
-  - action_learn_definition
-  - action_test_knowledge
+  - action_sts
 
 session_config:
   session_expiration_time: 60

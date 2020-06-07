@@ -2,10 +2,10 @@
 * greet
   - utter_greet
 * learn
-  - action_learn_definition
+  - utter_mock_definition
   
 ## testing path
 * greet
   - utter_greet
 * test
-  - action_test_knowledge
+  - action_sts
